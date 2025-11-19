@@ -1,12 +1,12 @@
 package gg.archipelago.aprandomizer.common.Utils;
 
-import dev.koifysh.archipelago.Print.APPrint;
-import dev.koifysh.archipelago.Print.APPrintColor;
-import dev.koifysh.archipelago.Print.APPrintPart;
-import dev.koifysh.archipelago.Print.APPrintType;
-import static dev.koifysh.archipelago.flags.NetworkItem.ADVANCEMENT;
-import static dev.koifysh.archipelago.flags.NetworkItem.TRAP;
-import static dev.koifysh.archipelago.flags.NetworkItem.USEFUL;
+import io.github.archipelagomw.Print.APPrint;
+import io.github.archipelagomw.Print.APPrintColor;
+import io.github.archipelagomw.Print.APPrintPart;
+import io.github.archipelagomw.Print.APPrintType;
+import static io.github.archipelagomw.flags.NetworkItem.ADVANCEMENT;
+import static io.github.archipelagomw.flags.NetworkItem.TRAP;
+import static io.github.archipelagomw.flags.NetworkItem.USEFUL;
 import static gg.archipelago.aprandomizer.APRandomizer.server;
 import gg.archipelago.aprandomizer.APRandomizer;
 import net.minecraft.core.BlockPos;

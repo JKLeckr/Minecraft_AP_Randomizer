@@ -1,7 +1,7 @@
 package gg.archipelago.aprandomizer.ap;
 
-import dev.koifysh.archipelago.Client;
-import dev.koifysh.archipelago.flags.ItemsHandling;
+import io.github.archipelagomw.Client;
+import io.github.archipelagomw.flags.ItemsHandling;
 import gg.archipelago.aprandomizer.APRandomizer;
 import gg.archipelago.aprandomizer.SlotData;
 import gg.archipelago.aprandomizer.ap.events.*;
@@ -9,6 +9,8 @@ import gg.archipelago.aprandomizer.common.Utils.Utils;
 import net.minecraft.server.MinecraftServer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
 
 public class APClient extends Client {
 
@@ -28,7 +30,7 @@ public class APClient extends Client {
         APRandomizer.getAdvancementManager().setCheckedAdvancements(getLocationManager().getCheckedLocations());
 
         //give our item manager the list of received items to give to players as they log in.
-        APRandomizer.getItemManager().setReceivedItems(getItemManager().getReceivedItemIDs());
+        APRandomizer.getItemManager().setReceivedItems((ArrayList<Long>) getItemManager().getReceivedItemIDs());
 
         //reset and catch up our global recipe list to be consistent with what we loaded from our save file.
         APRandomizer.getRecipeManager().resetRecipes();

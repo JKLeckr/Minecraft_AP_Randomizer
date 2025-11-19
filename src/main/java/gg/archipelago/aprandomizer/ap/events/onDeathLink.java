@@ -1,9 +1,9 @@
 package gg.archipelago.aprandomizer.ap.events;
 
-import dev.koifysh.archipelago.events.DeathLinkEvent;
+import io.github.archipelagomw.events.DeathLinkEvent;
 import gg.archipelago.aprandomizer.APRandomizer;
 import gg.archipelago.aprandomizer.common.Utils.Utils;
-import dev.koifysh.archipelago.events.ArchipelagoEventListener;
+import io.github.archipelagomw.events.ArchipelagoEventListener;
 import gg.archipelago.aprandomizer.common.events.onDeath;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.level.GameRules;

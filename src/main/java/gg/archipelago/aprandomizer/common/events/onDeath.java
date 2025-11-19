@@ -1,6 +1,6 @@
 package gg.archipelago.aprandomizer.common.events;
 
-import dev.koifysh.archipelago.helper.DeathLink;
+import io.github.archipelagomw.helper.DeathLink;
 import gg.archipelago.aprandomizer.APRandomizer;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerPlayer;

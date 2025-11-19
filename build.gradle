@@ -150,7 +150,8 @@ dependencies {
     implementation('net.sf.jopt-simple:jopt-simple:5.0.4') { version { strictly '5.0.4' } }
 
     // Archipelago Client Java Library
-    minecraftLibrary 'dev.koifysh:archipelago-client:0.1.19'
+    //minecraftLibrary 'dev.koifysh:archipelago-client:0.1.19'
+    implementation('io.github.archipelagomw:Java-Client:0.2.1')
 
     // Archipelago Client Java Library Dependencies
     // for use when local testing new library updates.
@@ -244,7 +245,7 @@ shadowJar {
     archiveClassifier.set('shadow')
     archiveVersion.set(mod_version)
     dependencies {
-        include(dependency("dev.koifysh:archipelago-client"))
+        include(dependency("io.github.archipelagomw:Java-Client"))
         include(dependency("org.java-websocket:Java-WebSocket"))
         include(dependency("org.apache.httpcomponents.client5:httpclient5"))
         include(dependency("org.apache.httpcomponents.core5:httpcore5"))

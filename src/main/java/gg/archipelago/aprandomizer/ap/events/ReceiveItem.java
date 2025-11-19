@@ -2,10 +2,10 @@ package gg.archipelago.aprandomizer.ap.events;
 
 import gg.archipelago.aprandomizer.APRandomizer;
 import gg.archipelago.aprandomizer.common.Utils.Utils;
-import dev.koifysh.archipelago.Print.APPrintColor;
-import dev.koifysh.archipelago.events.ArchipelagoEventListener;
-import dev.koifysh.archipelago.events.ReceiveItemEvent;
-import dev.koifysh.archipelago.parts.NetworkItem;
+import io.github.archipelagomw.Print.APPrintColor;
+import io.github.archipelagomw.events.ArchipelagoEventListener;
+import io.github.archipelagomw.events.ReceiveItemEvent;
+import io.github.archipelagomw.parts.NetworkItem;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.Style;
 import net.minecraft.network.chat.TextColor;

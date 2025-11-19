@@ -1,6 +1,6 @@
 package gg.archipelago.aprandomizer.managers;
 
-import dev.koifysh.archipelago.ClientStatus;
+import io.github.archipelagomw.ClientStatus;
 import gg.archipelago.aprandomizer.APRandomizer;
 import gg.archipelago.aprandomizer.ap.storage.APMCData;
 import gg.archipelago.aprandomizer.common.Utils.Utils;
